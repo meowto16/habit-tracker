@@ -1,7 +1,13 @@
 import React from 'react'
 
-import { Screen } from '../../interfaces/Screen'
+import { Tabbar } from '../../components/Tabbar/Tabbar'
+import { ScreenProps } from '../../interfaces/Screen'
 
-export const CalendarScreen: React.FC<Screen> = () => {
-  return <h1>Calendar Screen</h1>
+export const CalendarScreen: React.FC<ScreenProps> = () => {
+  return (
+    <div>
+      <h1>Calendar Screen</h1>
+      <Tabbar />
+    </div>
+  )
 }

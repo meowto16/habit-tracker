@@ -1,7 +1,13 @@
 import React from 'react'
 
-import { Screen } from '../../interfaces/Screen'
+import { Tabbar } from '../../components/Tabbar/Tabbar'
+import { ScreenProps } from '../../interfaces/Screen'
 
-export const GoalsScreen: React.FC<Screen> = () => {
-  return <h1>Goals screen</h1>
+export const GoalsScreen: React.FC<ScreenProps> = () => {
+  return (
+    <div>
+      <h1>Goals screen</h1>
+      <Tabbar />
+    </div>
+  )
 }
