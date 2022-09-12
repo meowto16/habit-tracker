@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import reportWebVitals from './reportWebVitals'
 
 import { App } from './App'
+import { IndexedDBProvider } from './services/IndexedDB/IndexedDB.context'
 
 import './index.css'
 
@@ -11,7 +12,9 @@ const root = ReactDOM.createRoot(
 )
 root.render(
   <React.StrictMode>
-    <App />
+    <IndexedDBProvider>
+      <App />
+    </IndexedDBProvider>
   </React.StrictMode>
 )
 
