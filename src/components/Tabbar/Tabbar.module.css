@@ -1,0 +1,30 @@
+.container {
+	padding-top: 40px;
+}
+
+.tabbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: var(--tabbar-bg-color);
+	padding-left: var(--inner-offset);
+	padding-right: var(--inner-offset);
+	border-top-left-radius: var(--tabbar-border-radius);
+	border-top-right-radius: var(--tabbar-border-radius);
+}
+
+.tabbar__item {
+	flex: 1 1 0;
+	cursor: pointer;
+	height: 60px;
+	background-color: transparent;
+	color: white;
+	border: none;
+}
+
+.tabbar__item_active {
+	font-weight: bold;
+}

@@ -1,0 +1,12 @@
+:root {
+	--color-primary: darkcyan;
+	--color-secondary: purple;
+	--color-success: green;
+	--color-danger: red;
+	--color-warning: yellow;
+
+	--tabbar-bg-color: black;
+	--tabbar-border-radius: 12px;
+
+	--inner-offset: 20px;
+}
